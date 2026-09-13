@@ -1,0 +1,18 @@
+# Ignore virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore environment variables with secrets
+.env
+
+# Ignore SQLite database
+*.db
+
+# Ignore user uploads and logs
+uploads/*
+!uploads/.gitkeep
+temp_uploads/*
+!temp_uploads/.gitkeep
+logs/*
+!logs/.gitkeep
